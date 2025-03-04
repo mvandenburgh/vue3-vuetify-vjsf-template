@@ -1,0 +1,24 @@
+{
+  "name": "vue-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@koumoul/vjsf": "3.10.3",
+    "vite": "6.2.0",
+    "vue": "^3.5.13",
+    "vuetify": "3.7.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.2",
+    "vite-plugin-node-polyfills": "0.23.0",
+    "vite-plugin-vuetify": "2.1.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
